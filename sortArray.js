@@ -2,7 +2,6 @@
 // sort an array
 function sortArray(array){
 
-    let i = 1
     let sortedArray = []
     const arrayItem = array[0]
 
@@ -10,7 +9,16 @@ function sortArray(array){
         console.log("Array is empty")
     }
     else{
-       console.log("none")
+       for(let i = 0; i < array.length; i++){
+        for(let j = 1; j < array.length; j++){
+            if (array[j] < array[i]){
+                sortedArray.push(array[j])
+            }
+            else{
+                sortedArray.push(array[i])
+            }
+        }
+       }
     }
 
     console.log(sortedArray)
@@ -18,5 +26,5 @@ function sortArray(array){
     
 }
 
-
+// calling the function
 sortArray([4, 2, 5, 1, 8, 4])
