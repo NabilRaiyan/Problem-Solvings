@@ -1,3 +1,5 @@
+
+// sort a merged sort array
 function mergeSortedArrays(array1, array2) {
 
     const mergedSort = []
