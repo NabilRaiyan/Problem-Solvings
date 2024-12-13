@@ -35,4 +35,5 @@ function mergeSortedArrays(array1, array2) {
   }
   
   
+  // calling function
   mergeSortedArrays([0,3,4,31], [3,4,6,30]);
