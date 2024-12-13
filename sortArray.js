@@ -1,3 +1,5 @@
+
+// sort an array
 function sortArray(array){
 
     let i = 1
