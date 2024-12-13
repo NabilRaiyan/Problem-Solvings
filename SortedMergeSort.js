@@ -10,6 +10,7 @@ function mergeSortedArrays(array1, array2) {
     
   
   
+    // condition
     if (array1.length === 0){
       console.log(array2)
     }
